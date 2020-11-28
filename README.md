@@ -7,7 +7,15 @@ A simple program to randomly "draw" names for a secret santa gift exchange. I wr
 1. Create a file called `names.in`.
 2. In `names.in`:  
   a. The first line should be an integer *n* (4 ≤ *n* ≤ 20), the number of people participating.  
-  b. The next *n* lines should each contain a person's name and their email, separated by a space. (The names and emails cannot contain spaces.)
+  b. The next *n* lines should each contain a person's name and their email, separated by a space. (The names and emails cannot contain spaces.)  
+  c. Sample input:  
+    ```
+    4
+    Alice alice@mail.com
+    Bob bob234@mail.com
+    Carol car.ol@mail.com
+    David dave@mail.com
+    ```
 3. Run the command  
 `g++ randomize-ppl.cpp && ./a.out`  
 This will produce a file `names.out`.

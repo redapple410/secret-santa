@@ -1,23 +1,4 @@
 // Secret Santa Randomizer
-/*
-Sample Input:
-4
-Alice alice@mail.com
-Bob bob234@mail.com
-Carol car@mail.com
-David dave@mail.com
-
-Sample Output:
-4
-Alice Bob Carol David
-alice@mail.com bob234@mail.com car@mail.com dave@mail.com
-Bob David Alice Carol
-
-Notes:
-- names and emails cannot have spaces
-- must have between 4 and 20 people, inclusive
-- use a command like "head -n 1 names.out" to verify that the thing worked
-*/
 
 #include <bits/stdc++.h>
 
